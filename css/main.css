@@ -9,17 +9,28 @@ Orange- #FFA500
     font-family: Sunshiney, cursive;
 }
 
+
+
 body {
+	background-color: white;
 	margin: 0 auto;
 	width: 960px;
     background: url(../images/pyramid.png);
     line-height: 25px;
-}		
+}
+
 
 h1 {
 	float: left;
 	color: #FFA500;
-	font-family: Sunshiney;
+	font-weight: bold;
+	text-shadow: 0.2em 0.3em 0.1em #CCC;
+		font-family: Sunshiney;
+  /*-ms-font-family: Sunshiney;
+   -moz-font-family: Sunshiney;
+     -o-font-family: Sunshiney;
+-webkit-font-family: Sunshiney;*/
+
 }
 
 #main-content {
@@ -57,6 +68,8 @@ h1 {
 h2, h3, p {
     clear: both;
     font-family: "Metal Mania";
+    text-shadow: 0.2em 0.3em 0.1em #CCC;
+
 }
 
 #gallery {
