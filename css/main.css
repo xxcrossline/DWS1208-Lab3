@@ -1,0 +1,115 @@
+/* Color Key
+Black- #000
+White- #FFF
+Orange- #FFA500
+*/
+                                                           
+@font-face {
+    font-family: "Metal Mania", cursive;
+    font-family: Sunshiney, cursive;
+}
+
+body {
+	margin: 0 auto;
+	width: 960px;
+    background: url(../images/pyramid.png);
+    line-height: 25px;
+}		
+
+h1 {
+	float: left;
+	color: #FFA500;
+	font-family: Sunshiney;
+}
+
+#main-content {
+    clear: both;
+    float: left;
+    width: 500px;
+   
+}
+
+#warming-up {
+	float: right;
+    width: 350px;
+    margin-right: 60px;
+}
+
+#cool {
+    float: left;
+    width: 500px;
+}
+
+#finale {
+    float: right;
+    width: 350px;
+    margin-right: 60px;
+}
+
+#sun  {
+    padding: 5px;
+    float: left;
+    width: 385px;
+    border: 5px double #000;
+}
+
+
+h2, h3, p {
+    clear: both;
+    font-family: "Metal Mania";
+}
+
+#gallery {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 450px;
+}
+
+#gallery li {
+    padding: 3px;
+}
+
+#nav ul {
+	float: right;
+	width: 320px;
+	margin-right: 90px;
+}
+
+#nav a {
+    color: #FFF;
+    background-color: orange;
+    display: block;
+    width: 80px; /* Any Width over will break the nav */                                                           
+    text-align: center;
+}
+
+#nav a:hover {
+    background: #000;
+}
+
+#gallery li, #nav li { /* Just wanted nav and pics horizontal */                                                           
+    float: left;
+}
+
+ul a {
+	text-decoration: none;
+    width: 60px;
+}
+
+ul a:hover {
+	color: #000;
+}
+
+ul li {
+    list-style-type: none;
+	margin-bottom: 10px;
+}
+
+#closer {
+    text-align: center;
+}
+
+div img {
+    width: 400px;
+}
